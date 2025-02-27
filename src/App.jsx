@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
+import { Moon, Sun } from "lucide-react"; // Theme Icons
 import React, { useState } from "react";
-import { Sun, Moon } from "lucide-react"; // Theme Icons
 import rose from "./assets/rose.jpg"; // Ensure you have the image in src/assets/
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     const handleWishClick = () => {
         setShowAnimation(true);
         alert("💖 Happy Birthday, Shifa! Wishing you love, happiness, and all the beauty life has to offer. ✨");
-        setTimeout(() => setShowAnimation(false), 4000);
+        setTimeout(() => setShowAnimation(false), 10000);
     };
 
     const handleWhatsAppClick = () => {
@@ -98,8 +98,14 @@ function App() {
                             alt="Rose"
                             className="w-28 h-28 md:w-36 md:h-36 rounded-md shadow-lg"
                         />
-                        <p className="text-2xl font-bold">
-                            Can you Send a msg 
+                        <p className="text-xl font-bold">
+                            I am so sorry i can't even became your friend but once we're friends
+                            that's why build this so you i can talk to you once
+                            and sorry for every thing!
+                        </p>
+
+                        <p className="text-2xl font-bold ">
+                            BTW Happy Birthday...😊👍
                         </p>
                     </motion.div>
                 )}
