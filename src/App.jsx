@@ -103,7 +103,7 @@ function App() {
                             <br/>So, I built this so I can talk to you at least once.
                         </p>
                         <p className="text-2xl font-bold mt-6">
-                            BTW Happy Birthday Chudel..🧚‍♀️!!...😱
+                            BTW Happy Birthday Chudel...🥰😋
                         </p>
 
                     </motion.div>
