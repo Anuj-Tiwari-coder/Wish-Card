@@ -21,11 +21,10 @@ function App() {
 
     return (
         <div
-            className={`flex items-center justify-center min-h-screen p-6 relative overflow-hidden transition-all duration-500 ${
-                darkMode
-                    ? "bg-gray-900 text-white"
-                    : "bg-gray-100 text-gray-900"
-            }`}
+            className={`flex items-center justify-center min-h-screen p-6 relative overflow-hidden transition-all duration-500 ${darkMode
+                ? "bg-gray-900 text-white"
+                : "bg-gray-100 text-gray-900"
+                }`}
         >
             {/* Subtle Floating Glow */}
             <div className="absolute inset-0 bg-gradient-to-b from-gray-800 via-transparent to-transparent opacity-40 blur-3xl"></div>
@@ -40,11 +39,10 @@ function App() {
 
             {/* Birthday Card */}
             <motion.div
-                className={`p-8 md:p-12 rounded-2xl shadow-lg max-w-md transition-all duration-500 ${
-                    darkMode
-                        ? "bg-white/10 backdrop-blur-lg border border-white/20"
-                        : "bg-white border border-gray-200"
-                }`}
+                className={`p-8 md:p-12 rounded-2xl shadow-lg max-w-md transition-all duration-500 ${darkMode
+                    ? "bg-white/10 backdrop-blur-lg border border-white/20"
+                    : "bg-white border border-gray-200"
+                    }`}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
@@ -59,7 +57,7 @@ function App() {
                     Wishing you a year of beautiful moments, laughter, and unforgettable memories.💫
                 </p>
                 <p className="text-lg font-medium text-center mb-6">
-                    Happy Birthday Dear! God keeps you save and happy forever💫
+                    Happy Birthday Dear! God keeps you safe and happy forever💫
                 </p>
 
                 {/* Buttons */}
@@ -79,14 +77,14 @@ function App() {
                         whileTap={{ scale: 0.95 }}
                         className="bg-pink-500 text-white text-lg px-6 py-3 rounded-lg shadow-md font-semibold transition-all"
                     >
-                        Send Thanks 💬
+                        if you wish.. 💬
                     </motion.button>
                 </div>
 
                 {/* Rose Animation */}
                 {showAnimation && (
                     <motion.div
-                        className="mt-8 flex flex-col items-center"
+                        className="mt-8 flex flex-col items-center text-center"
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -30 }}
@@ -98,15 +96,16 @@ function App() {
                             alt="Rose"
                             className="w-28 h-28 md:w-36 md:h-36 rounded-md shadow-lg"
                         />
-                        <p className="text-xl font-bold">
-                            I am so sorry i can't even became your friend but once we're friends
-                            that's why build this so you i can talk to you once
-                            and sorry for every thing!
+                        <p className="text-xl font-bold mt-4">
+                            <br />I am so sorry
+                            <br />I can't become your friend,
+                            <br />but once we're friends,
+                            <br/>So, I built this so I can talk to you at least once.
+                        </p>
+                        <p className="text-2xl font-bold mt-6">
+                            BTW Happy Birthday Chudel..🧚‍♀️!!...😱
                         </p>
 
-                        <p className="text-2xl font-bold ">
-                            BTW Happy Birthday...😊👍
-                        </p>
                     </motion.div>
                 )}
             </motion.div>
