@@ -99,7 +99,7 @@ function App() {
                         <p className="text-xl font-bold mt-4">
                             <br />Hii👋 Stranger
                             <br />Remember me!,
-                            <br />once we're friends,
+                            <br />once we're friend,
                             <br />😍💖
                         </p>
                         <p className="text-2xl font-bold mt-6">
