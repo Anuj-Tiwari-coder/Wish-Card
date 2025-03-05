@@ -10,7 +10,7 @@ function App() {
     const handleWishClick = () => {
         setShowAnimation(true);
         alert("💖 Happy Birthday, Shifa! Wishing you love, happiness, and all the beauty life has to offer. ✨");
-        setTimeout(() => setShowAnimation(false), 10000);
+        setTimeout(() => setShowAnimation(false), 2000);
     };
 
     const handleWhatsAppClick = () => {
@@ -97,14 +97,15 @@ function App() {
                             className="w-28 h-28 md:w-36 md:h-36 rounded-md shadow-lg"
                         />
                         <p className="text-xl font-bold mt-4">
-                            <br />I am so sorry
-                            <br />I can't become your friend,
-                            <br />but once we're friends,
-                            <br/>So, I built this so I can talk to you at least once.
+                            <br />Hii👋 Stranger
+                            <br />Remember me!,
+                            <br />once we're friends,
+                            <br />😍💖
                         </p>
                         <p className="text-2xl font-bold mt-6">
-                            BTW Happy Birthday Chudel..🧚‍♀️!!...😱
+                            BTW Happy Birthday Chudel..👻..🧚‍♀️.
                         </p>
+                        Waiting For your msg.
 
                     </motion.div>
                 )}
