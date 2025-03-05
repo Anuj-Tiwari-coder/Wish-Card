@@ -10,7 +10,7 @@ function App() {
     const handleWishClick = () => {
         setShowAnimation(true);
         alert("💖 Happy Birthday, Shifa! Wishing you love, happiness, and all the beauty life has to offer. ✨");
-        setTimeout(() => setShowAnimation(false), 2000);
+        setTimeout(() => setShowAnimation(false), 7000);
     };
 
     const handleWhatsAppClick = () => {
