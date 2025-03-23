@@ -102,7 +102,7 @@ function App() {
                             <br />once we're friends,
                             <br />😍💖
                         </p>
-                        <p>I want to write somethig But I think You don't like so i can't do</p>
+                        <p>I want to write somethig But I think You don't like it, so i can't do</p>
                         <p className="text-2xl font-bold mt-6">
                             BTW Happy Birthday Chudel..👻..🧚‍♀️.
                         </p>
